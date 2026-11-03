@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" role="img" aria-label="simplelogin-cli">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3f7cf0"/>
+      <stop offset="1" stop-color="#1b3a99"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14224f"/>
+      <stop offset="1" stop-color="#0b1330"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="400" rx="28" fill="url(#panel)"/>
+  <g transform="translate(88 96) scale(0.4)">
+    <rect width="512" height="512" rx="116" fill="url(#g)"/>
+    <rect x="84" y="136" width="344" height="240" rx="38" fill="#fff" fill-opacity=".14" stroke="#fff" stroke-width="24"/>
+    <path d="M104 166l152 116 152-116" fill="none" stroke="#fff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="392" cy="372" r="72" fill="#1b3a99"/>
+    <circle cx="392" cy="372" r="56" fill="#fff"/>
+    <path d="M368 372h48m-18-20l20 20-20 20" fill="none" stroke="#1f46b5" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="330" y="180" fill="#fff" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="84" font-weight="700">simplelogin-cli</text>
+  <text x="332" y="244" fill="#a9c1ff" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="34">alias  ·  mailbox  ·  domain  ·  SimpleLogin</text>
+  <text x="332" y="296" fill="#7f95cf" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="28">amazon@sl.example.com  →  me@example.com</text>
+</svg>
